@@ -30,7 +30,7 @@ done = True
 
 clear()
 clear()
-print(Fore.RED + """
+print(Fore.CYAN + """
   ______   __         ______   __      __ 
  /      \ /  |       /      \ /  \    /  |
 /$$$$$$  |$$ |      /$$$$$$  |$$  \  /$$/ 
