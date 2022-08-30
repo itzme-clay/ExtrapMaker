@@ -122,21 +122,7 @@ def maker(ace1, ace2, ace):
     joinedgen2 = sjoinedgen2 + sjoinedlive
 
     clear()
-
-    print(Fore.CYAN + """
-  ______   __         ______   __      __ 
- /      \ /  |       /      \ /  \    /  |
-/$$$$$$  |$$ |      /$$$$$$  |$$  \  /$$/ 
-$$ |  $$/ $$ |      $$ |__$$ | $$  \/$$/  
-$$ |      $$ |      $$    $$ |  $$  $$/   
-$$ |   __ $$ |      $$$$$$$$ |   $$$$/    
-$$ \__/  |$$ |_____ $$ |  $$ |    $$ |    
-$$    $$/ $$       |$$ |  $$ |    $$ |    
- $$$$$$/  $$$$$$$$/ $$/   $$/     $$/     
-                                          
-                                          
-                                                                                                                                                        
-    """)
+    
     print(Fore.MAGENTA + "")
     listgen1 = list(joinedgen1)
     listgen1[7] = "x"
@@ -183,20 +169,7 @@ $$    $$/ $$       |$$ |  $$ |    $$ |
 
 def chk():
     clear()
-    print(Fore.CYAN + """
-  ______   __         ______   __      __ 
- /      \ /  |       /      \ /  \    /  |
-/$$$$$$  |$$ |      /$$$$$$  |$$  \  /$$/ 
-$$ |  $$/ $$ |      $$ |__$$ | $$  \/$$/  
-$$ |      $$ |      $$    $$ |  $$  $$/   
-$$ |   __ $$ |      $$$$$$$$ |   $$$$/    
-$$ \__/  |$$ |_____ $$ |  $$ |    $$ |    
-$$    $$/ $$       |$$ |  $$ |    $$ |    
- $$$$$$/  $$$$$$$$/ $$/   $$/     $$/     
-                                          
-                                                                                                                                                                      
-                                                                              
-    """)
+
     gen1 = int(input(Fore.RED + "Enter The First Generated CC Number (Only CC Number) : \033[1;32;40m"))
     gen2 = int(input(Fore.RED + "Enter The Second Generated CC Number (Only CC Number) :\033[1;32;40m "))
     livecc = int(input("\033[1;32;40mEnter Any Live CC Number : \033[38;2;255;255;255m"))
